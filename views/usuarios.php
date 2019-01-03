@@ -6,8 +6,8 @@
 		<td><?php echo $usuario['email']; ?></td>
 		<td><?php echo $usuario['senha']; ?></td>
 		<td>
-			<a href="javascript:;" onclick="editar()">Editar</a>
-			<a href="javascript:;" onclick="excluir()">Excluir</a>
+			<a href="javascript:;" onclick="editar('<?php echo $usuario['id']; ?>')">Editar</a>
+			<a href="javascript:;" onclick="excluir('<?php echo $usuario['id']; ?>')">Excluir</a>
 		</td>
 	</tr>
 	<?php endforeach; ?>
