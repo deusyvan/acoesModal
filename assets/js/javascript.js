@@ -4,8 +4,11 @@ function editar(id){
 		url:BASE_URL+"usuarios/editar/" + id,
 		type:'POST',
 		data:{id:id},
+		beforeSend:function(){
+			//Antes de enviarmos o html vamos fazer algo antes
+		}
 		success:function(html){
-			
+			//Pegando o html para colocar dentro do modal
 		}
 		
 	});
