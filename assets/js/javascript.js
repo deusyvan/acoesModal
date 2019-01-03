@@ -10,6 +10,7 @@ function editar(id){
 		}
 		success:function(html){
 			//Pegando o html para colocar dentro do modal
+			$('#modal').find('.modal-body').html(html);
 		}
 		
 	});
