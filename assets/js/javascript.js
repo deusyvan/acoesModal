@@ -1,5 +1,4 @@
 function editar(id){
-	$('#modal').modal('show');
 	$.ajax({
 		url:BASE_URL+"usuarios/editar/" + id,
 		type:'POST',
@@ -11,6 +10,7 @@ function editar(id){
 		success:function(html){
 			//Pegando o html para colocar dentro do modal
 			$('#modal').find('.modal-body').html(html);
+			$('#modal').modal('show');
 		}
 		
 	});
