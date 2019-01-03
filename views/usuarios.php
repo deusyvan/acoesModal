@@ -6,7 +6,7 @@
 		<td><?php echo $usuario['email']; ?></td>
 		<td><?php echo $usuario['senha']; ?></td>
 		<td>
-			<a href="javascript:;">Editar</a>
+			<a href="javascript:;" onclick="editar()">Editar</a>
 			<a href="javascript:;">Excluir</a>
 		</td>
 	</tr>
