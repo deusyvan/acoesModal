@@ -15,4 +15,8 @@ class usuariosController extends controller {
         $this->loadTemplate('usuarios', $data);
     }
     
+    public function editar($id){
+        
+    }
+    
 }
