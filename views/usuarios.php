@@ -7,7 +7,7 @@
 		<td><?php echo $usuario['senha']; ?></td>
 		<td>
 			<a href="javascript:;" onclick="editar()">Editar</a>
-			<a href="javascript:;">Excluir</a>
+			<a href="javascript:;" onclick="excluir()">Excluir</a>
 		</td>
 	</tr>
 	<?php endforeach; ?>
