@@ -7,7 +7,7 @@ function editar(id){
 			//Antes de enviarmos o html vamos fazer algo antes
 			$('#modal').find('.modal-body').html('Carregando ...');
 			$('#modal').modal('show');
-		}
+		},
 		success:function(html){
 			//Pegando o html para colocar dentro do modal
 			$('#modal').find('.modal-body').html(html);
